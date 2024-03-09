@@ -20,7 +20,7 @@ section{
 }
 
 body{
-    background-color: ffff;
+    background-color: #ffff;
     font-family: "Roboto";
 }
 
@@ -31,9 +31,8 @@ body{
 
 header{
     height:5.875rem;
-    background: rgb(215,57,57);
-    background: linear-gradient(90deg, rgba(215,57,57,1) 30%, rgba(253,110,45,1) 81%, rgba(203,20,20,1) 100%);
-    
+    background: rgb(223,66,66);
+    background: linear-gradient(0deg, rgba(223,66,66,1) 2%, rgba(215,57,57,1) 19%);
     display: flex;
     justify-content:center;
 }
@@ -64,7 +63,7 @@ header{
 }
 
 .navbar > a{
-    font-size: 30px;
+    font-size: 2em;
     text-decoration: none;
     color: #fff;;
     font-family: "Roboto";
@@ -114,9 +113,16 @@ header{
     font-family: "Roboto";
 }
 
+.noticia-principal > h1:hover{
+    color: #d73939;
+    cursor: pointer;
+}
+
 .noticia-principal > p{
     margin-left: 6%;
 }
+
+
 
 .noticia-principal > ul{
     margin-left: 10%;
@@ -140,6 +146,8 @@ header{
     font-family: "Roboto";
 }
 
+
+
 .outras-noticias > img{
     width: 90%;
     height: 40%;
@@ -152,7 +160,10 @@ header{
     font-family: "Roboto";
 }
 
-
+.outras-noticias > h1:hover{
+    color: #d73939;
+    cursor: pointer;
+}
 
 p{
     margin-top: 5%;
@@ -170,7 +181,8 @@ li{
 .titulo-novidades{
     text-align: center;
     font-size: 3rem;
-    margin-top: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     font-family: "Roboto";
 }
 
@@ -178,11 +190,13 @@ li{
     display: flex;
     flex-direction: column;
     max-width:95.75rem;
-    height:75rem ;
+    height:75rem;
     margin:0 auto;
     background-color:ffff;
     justify-content: space-between; 
     padding-top: 5%;
+    border-right: 1px solid #eaeaea;
+  
 }
 .artigos-ultimas-noticias{
    display: flex;
@@ -190,7 +204,14 @@ li{
    padding-left: 1.25rem;
    height: 55%;
    margin-bottom: 8.5rem;
+   
 }
+
+.texto-artigo > p:hover{
+    color: #d73939;
+    cursor: pointer;
+}
+
 .artigos-ultimas-noticias > img{
     height: 100%;
     width: 30%;
@@ -228,7 +249,7 @@ li{
     max-width:95.75rem;
     height:25rem;
     padding-top: 1%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .titulo-formulario > h2{
@@ -256,15 +277,17 @@ form{
 
 footer{
     height:22.1875rem;
-    background: rgb(214, 56, 56);
-    background: linear-gradient(0deg, rgba(215,57,57,1) 74%, rgba(253,110,45,1) 100%);
+    background: rgb(223,66,66);
+    background: linear-gradient(0deg, rgba(223,66,66,1) 2%, rgba(215,57,57,1) 19%);
     margin-top: 15rem;
+    
 }
 
 input, select{
     border-radius: 4px;
     height: 100%;
     margin-left: 6%;
+    
 }
 
 .campo{
@@ -281,6 +304,8 @@ fieldset{
 .campo input[type="text"], .campo input[type="email"], .campo select{
     padding: 0.2em;
     width: 70%;
+    font-size: large;
+    
 }
 
 button {
@@ -320,3 +345,149 @@ label{
     position: absolute;
     margin-top: 0.2%;
 }
+
+option{
+    font-size: 1rem;
+}
+.list-footer{
+
+    max-width:95.75rem;
+    height: 100%;
+    margin:0 auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-container{
+    margin-top: 1%;
+}
+
+.titulo-lista{
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.nav-footer{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.nav-footer > img{
+    width: 100%;
+    height: 90%;
+   
+}
+
+ul.lista{
+    margin-left: 0%;
+    margin-top: 0%;
+    list-style: none;
+}
+
+.topico-categoria{
+    margin-bottom: 5%;
+}
+
+.topico-categoria > a:hover{
+    color: #eaeaea;
+}
+
+.topico-categoria > a{
+    text-decoration: none;
+    color: #000000;
+}
+
+ li:hover{
+    color: #d73939;
+    cursor: pointer;
+}
+
+.autor{
+    margin-top: 12%;
+    color: #4a4a4a;
+}
+
+.autor-2{
+    margin-top: 20%;
+    color: #4a4a4a;
+}
+
+.autor-3{
+    margin-top: 15%;
+    color: #4a4a4a;
+}
+
+.botao-ver-mais{
+    display: flex;
+    justify-content: center;
+    max-width:95.75rem;
+    padding-top: 2%;
+    height: 5%;
+    border-right: 1px solid #eaeaea;
+  
+}
+.ver-mais{
+    height: 100%;
+}
+
+.rede-sociais{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.titulo-redes{
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+@media(max-width:768px){
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.redes-logos{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    width: 100%;
+    height: 30%;
+    padding: 0.625rem;
+
+}
+
+.logos-socias{
+    width: 75%;
+    height: 90%;
+  
+}
+
+.logos-socias > img{
+    width: 50%;
+    height:85%;
+}
+
+/*.list-container{
+   
+    height: 100%; 
+    max-width:95.75rem;
+    padding-top: 2%;
+    margin-left: 2%;
+}
+
+ul.lista{
+    margin-left: 0%;
+    list-style: none;
+}
+
+.topico-categoria{
+    margin-top: 2%;
+}*/
