@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <link rel="stylesheet" type="text/css" href="css\home.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portal-multiverso</title>
+</head>
+<body>
+    <header>
+        <div class="conteiner">
+            <img src="img\banner2.png" alt="logo">
+
+            <nav class="navbar">
+                <a href="#">Filmes</a>
+                <a href="#">Séries</a>
+                <a href="#">Mangás</a>
+                <a href="#">Animes</a>
+            </nav>
+
+            <div class="buscar"><img src="./img/procurar.png"></div>
+        </div>
+    </header>
+   
+    <main>
+
+        <article class="linha"></article>
+        <section>
+            <aside class = "outras-noticias">
+                <img src="img\borderlands.jpg" alt="capa do jogo Bordelands">
+                <h1>Live action de Bordelands ganha trailer alucinante</h1>
+                <p>Conheça a história e o elenco da adaptação de Borderlands</p>
+                <ul>
+                    <li>Curioso para saber as diferenças entre os jogos e a adaptação?</li>
+                    <li>Veja as experiências dos atores ao decorrer das gravações </li>
+                </ul>
+            </aside>
+
+                <article class="noticia-principal"> 
+                    <img src="img\akira.jpg" alt="arte promocional da animação Akira">
+                    <h1>Akira deve ser o proximo filme de Taika Waititi</h1>  
+                    <p>Warner Bros ainda precisa negociar orçamento e definir começo de filmagens</p> 
+                    <ul>
+                        <li>Funimation lança versão da jaqueta de Shotaro Kaneda; confira </li>
+                        <li>Hollywood, fique longe de Akira</li>
+                    </ul>
+                </article> 
+    
+             <aside class = "outras-noticias">
+                <img src="img\dead-3.jpg" alt="Wolveriene e Deadpool conversando enquanto andam">
+                <h1>Deadpool & Wolveriene trailer - Segredos</h1>
+                <p>Veja as novidades de Deadpool & Wolveriene</p>
+                <ul>
+                    <li>Por que alguns fãs estão convencidos de que Taylor Swift estará em Deadpool 3? </li>
+                    <li>Ryan Reynolds anuncia fim das filmagens de Deadpool 3 em texto emotivo</li>
+                </ul>
+            </aside>  
+
+        </section>
+        
+        <article class="linha2"></article>
+        
+        <h1 class="titulo-novidades">Novidades da semana</h1>
+
+        <article class="linha"></article>
+
+        <section class="ultimas-noticias">
+
+            <article class="artigos-ultimas-noticias">
+                <img src="img/one-punch-man.jpg" alt="logo">
+                <aside class="previa-artigo">
+                    <div class="texto-artigo">
+                        <h2>Animes</h2>
+                        <p> Trailer da nova temporada de One Punch Man acaba de ser 
+                            lançado - confira a nossa analise do trailer.
+                        </p>
+                        <h4 class="autor-2">Por: Gustavo Araujo</h4>
+                    </div>
+                </aside>    
+            </article>  
+
+            <article class="artigos-ultimas-noticias">
+                <img src="img/duna.png" alt="logo">
+                <aside class="previa-artigo">
+                    <div class="texto-artigo">
+                        <h2>Filmes</h2>
+                        <p> Com Duna parte 2 logo aí, veja as diferenças entre o primeiro filme
+                            e o livro, para se preparar para a continuação.
+                        </p>
+                        <h4 class="autor">Por: Gustavo Araujo</h4>
+                    </div>
+                </aside>    
+            </article>  
+
+            <article class="artigos-ultimas-noticias">
+                <img src="img/dandadan.jpg" alt="logo">
+                <aside class="previa-artigo">
+                    <div class="texto-artigo">
+                        <h2>Mangás</h2>
+                        <p> Com a adaptação em anime chegando logo aí, conheça o mangá Dandadan. Uma 
+                            história caótica sobre aliens, criptideos e vovós turbo.
+                        </p>
+                        <h4 class="autor-3">Por: Gustavo Araujo</h4>
+                    </div>
+                </aside>   
+                
+            </article> 
+            
+           
+        </section>
+
+        <section class="botao-ver-mais">
+            <button class="ver-mais"> Ver mais </button> 
+        </section>
+
+        <section class="compartilhar">
+           <form>
+               <fieldset>
+                    <div class="formulario">
+                        <div class="titulo-formulario">
+                            <h2>Compartilhe as nossas novidades com alguém</h2>
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Tema:</label>
+                            <select id="tema">
+                                <option>Em alta</option>
+                                <option>Novidades da semana</option>
+                                <option>Filmes</option>
+                                <option>Series</option>
+                                <option>Mangás</option>
+                                <option>Animes</option>
+                            </select>
+                        </div>
+
+                        <div class="campo">
+                            <label for="nome">Nome: </label>
+                            <input type="text" name="nome" id="nome" required>
+                        </div>
+
+                        <div class="campo">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" required>
+                            <button type="submit">Compartilhar</button>
+                        </div>
+
+                    </div>
+               </fieldset> 
+           </form>
+        </section>
+    
+    </main>
+    <footer>
+        <div class="list-footer">
+            <div class="lista-container">
+                <div class="nav-footer">
+                    <img src="img\banner2.png" alt="logo">  
+                </div>
+                <h2 class="titulo-lista">CATEGORIAS</h2>
+                 <ul class="lista">
+                    <li class="topico-categoria"><a href="#">Filmes</a></li>
+                    <li class="topico-categoria"><a href="#">Séries</a></li>
+                    <li class="topico-categoria"><a href="#">Mangás</a></li>
+                    <li class="topico-categoria"><a href="#">Animes</a></li>
+                 </ul>
+                 <div class="copyright">
+                    © Copyright 2024 Portal Multiverso
+                </div>
+            </div> 
+
+            <div class="rede-sociais">
+                <h2 class="titulo-redes">SIGA NOSSAS REDES SOCIAS</h2>
+                <div class="redes-logos">
+                    <div class="logos-socias"><img src="./img/instagram.png"></div>
+                    <div class="logos-socias"><img src="./img/twitter.png"></div>
+                    <div class="logos-socias"><img src="./img/tiktok.png"></div>
+                    <div class="logos-socias"><img src="./img/youtube.png"></div>
+                </div>
+               
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
