@@ -52,6 +52,16 @@ header{
     
 }
 
+.logo{
+    height: 80%;
+    width: 30%; 
+}
+
+.logo > a > img{
+    height: 100%;
+    width: 100%;
+}
+
 .navbar{
  
     width: 40%;
